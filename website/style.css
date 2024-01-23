@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: none;
+
+}
+
+#app {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient( 135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 30px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.holder {
+    margin-bottom: 10px;
+}
+
+.headline {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.zip {
+    align-items: center;
+}
+
+.zip input {
+    margin-top: 3px;
+}
+
+.zip input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 7px;
+    text-align: center;
+    padding: 3px 25px;
+    margin-left: 5vw;
+    font-size: 16px
+
+}
+
+.feel textarea {
+    width: 100%;
+    margin-top: 3px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.generate {
+
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background: linear-gradient(90deg, #0066CC 0%, #5e42a6 100%);
+padding: 10px 30px;
+border: 2px solid #0066cc;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+.generate:hover{
+
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background: linear-gradient(90deg, #0066CC 0%, #5e42a6 100%);
+color: #0a0101;
+border: solid 2px #0066cc;
+font-weight: bold;
+}
+
+#entryHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 120px;
+}
+
+#date {
+    margin-top: 15px;
+    color: #0a0101;
+    font-weight: bold;
+
+}
+
+#temp {
+    margin-top: 10px;
+    color: #0a0101;
+    font-weight: bold;
+}
+
+#countr {
+    margin-top: 10px;
+    color: #0a0101;
+    font-weight: bold;
+}
+
+#content {
+    margin-top: 10px;
+    color: #0a0101;
+    font-weight: bold;
+}
